@@ -4,7 +4,14 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				body: ['Rubik']
+				body: ['Rubik'],
+				header: ['Inter']
+			},
+			width: {
+				header: '1710px'
+			},
+			height: {
+				header: '475px'
 			}
 		}
 	},

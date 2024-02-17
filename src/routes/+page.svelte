@@ -1,8 +1,9 @@
 <script>
     import logo from '../Assets/logo.png'
+    import header from '../Assets/header-img.jpg'
 </script>
 
-<nav class="bg-white flex items-center justify-between py-1 px-6 shadow-md">
+<nav class="bg-white flex items-center justify-between py-1 px-6 shadow-xl">
     <div class="flex-1 flex justify-start">
         <img src={logo} alt="..." class="h-auto w-32 mb-4">
     </div>
@@ -22,3 +23,16 @@
     </ul>
     <div class="flex-1"></div>
 </nav>
+
+<!--  Header image w/ text  -->
+
+<div class="relative w-header h-header">
+    <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-header text-white text-5xl">YOUR HOME NEEDS</h1>
+    <img src={header} alt="..." class="w-full h-full object-cover">
+</div>
+
+<!--  Services section  -->
+
+<div class="relative w-header h-header">
+    
+</div>

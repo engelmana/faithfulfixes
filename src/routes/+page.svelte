@@ -3,7 +3,7 @@
     import header from '../Assets/header-img.jpg'
 </script>
 
-<nav class="bg-white flex items-center justify-between py-1 px-6 shadow-xl">
+<nav class="bg-white flex items-center justify-between py-1 px-6 shadow-xl sticky top-0 z-50">
     <div class="flex-1 flex justify-start">
         <img src={logo} alt="..." class="h-auto w-32 mb-4">
     </div>
@@ -34,5 +34,5 @@
 <!--  Services section  -->
 
 <div class="relative w-header h-header">
-    
+
 </div>

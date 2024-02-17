@@ -8,16 +8,16 @@
     </div>
     <ul class="flex-1 flex justify-center space-x-10 text-black text-lg font-body">
         <li>
-            <a href="/" class="hover:text-blue-600 transition-colors duration-150">SERVICES</a>
+            <a href="/services" class="hover:text-blue-600 transition-colors duration-150">SERVICES</a>
         </li>
         <li>
-            <a href="/">REVIEWS</a>
+            <a href="/reviews" class="hover:text-blue-600 transition-colors duration-150">REVIEWS</a>
         </li>
         <li>
-            <a href="/">ABOUT</a>
+            <a href="/about" class="hover:text-blue-600 transition-colors duration-150">ABOUT</a>
         </li>
         <li>
-            <a href="/">CONTACT</a>
+            <a href="/contact" class="hover:text-blue-600 transition-colors duration-150">CONTACT</a>
         </li>
     </ul>
     <div class="flex-1"></div>

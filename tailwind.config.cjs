@@ -14,7 +14,8 @@ export default {
 				header: '475px'
 			},
 			colors: {
-				btn: '#00AAFF'
+				btn: '#00AAFF',
+				background: '#B4B4B4'
 			}
 		}
 	},

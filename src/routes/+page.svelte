@@ -28,6 +28,7 @@
 
 <div class="relative w-header h-header">
     <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-header text-white text-5xl">YOUR HOME NEEDS</h1>
+    <button type="button" class="bg-btn border border-btn hover:bg-white hover:text-btn duration-200 absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-20 font-body text-white px-4 py-2">CONTACT US</button>
     <img src={header} alt="..." class="w-full h-full object-cover">
 </div>
 

@@ -12,6 +12,9 @@ export default {
 			},
 			height: {
 				header: '475px'
+			},
+			colors: {
+				btn: '#00AAFF'
 			}
 		}
 	},

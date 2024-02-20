@@ -16,6 +16,12 @@ export default {
 			colors: {
 				btn: '#00AAFF',
 				background: '#B4B4B4'
+			},
+			keyframes: {
+				bounce: {
+					'0%, 100%': { transform: 'translateY(-25%)' },
+					'50%': { transform: 'translateY(0)' }
+				}
 			}
 		}
 	},

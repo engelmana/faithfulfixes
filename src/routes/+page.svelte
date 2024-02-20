@@ -18,7 +18,6 @@
          if (typeof window !== "undefined") {
             window.addEventListener('scroll', handleScroll);
         
-            // Cleanup function to be returned for removing the event listener on component destroy
             return () => {
                 window.removeEventListener('scroll', handleScroll);
         };
@@ -47,12 +46,12 @@
 
 <!--  Header image w/ text  -->
 <div class="relative overflow-hidden" style="height: 100vh;">
-    <div class="absolute inset-0 flex flex-col items-center justify-center" style="padding-bottom: 5vh;">
-        <h1 class="text-white font-bold text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-center px-4" style="max-height: 30vh; overflow: hidden;">YOUR HOME NEEDS</h1>
+    <div class="absolute inset-0 flex flex-col items-center justify-center" style="padding-bottom: 10vh;"> 
+        <h1 class="text-white font-bold text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-center px-4" style="max-height: 20vh; overflow: hidden;">YOUR HOME NEEDS</h1> 
         <button type="button" class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">CONTACT US</button>
     </div>
     <img src="{header}" alt="Header" class="absolute top-0 left-0 w-full h-full object-cover z-[-1]">
-    <div class={`absolute bottom-0 w-full flex justify-center pb-2 transition-opacity duration-500 ${scrolledDown ? 'opacity-0' : 'opacity-100'}`} style="height: 10vh;">
+    <div class="absolute bottom-0 w-full flex justify-center pb-2 transition-opacity duration-500" style="height: 15vh; opacity: {scrolledDown ? '0' : '1'};">
         <div class="flex space-x-4">
             <svg class="animate-bounce w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
